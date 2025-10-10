@@ -9,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{81034408-37C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plataforma.Api", "src\Api\Plataforma.Api\Plataforma.Api.csproj", "{B706C7E4-5F2F-4E1D-931F-B2B02227D5EB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BoundedContexts", "BoundedContexts", "{F480DADC-CC69-D398-4DBB-D15DC7288F2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Alunos", "Alunos", "{65C63562-CAF0-A5E7-78FD-FD81184A2D4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plataforma.Alunos.Infrastructure", "src\BoundedContexts\Alunos\Plataforma.Alunos.Infrastructure\Plataforma.Alunos.Infrastructure.csproj", "{032A5066-F1AB-48E5-B1E8-0BD6BAAC6B3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +37,18 @@ Global
 		{B706C7E4-5F2F-4E1D-931F-B2B02227D5EB}.Release|x64.Build.0 = Release|Any CPU
 		{B706C7E4-5F2F-4E1D-931F-B2B02227D5EB}.Release|x86.ActiveCfg = Release|Any CPU
 		{B706C7E4-5F2F-4E1D-931F-B2B02227D5EB}.Release|x86.Build.0 = Release|Any CPU
+		{032A5066-F1AB-48E5-B1E8-0BD6BAAC6B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032A5066-F1AB-48E5-B1E8-0BD6BAAC6B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032A5066-F1AB-48E5-B1E8-0BD6BAAC6B3B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{032A5066-F1AB-48E5-B1E8-0BD6BAAC6B3B}.Debug|x64.Build.0 = Debug|Any CPU
+		{032A5066-F1AB-48E5-B1E8-0BD6BAAC6B3B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{032A5066-F1AB-48E5-B1E8-0BD6BAAC6B3B}.Debug|x86.Build.0 = Debug|Any CPU
+		{032A5066-F1AB-48E5-B1E8-0BD6BAAC6B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032A5066-F1AB-48E5-B1E8-0BD6BAAC6B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{032A5066-F1AB-48E5-B1E8-0BD6BAAC6B3B}.Release|x64.ActiveCfg = Release|Any CPU
+		{032A5066-F1AB-48E5-B1E8-0BD6BAAC6B3B}.Release|x64.Build.0 = Release|Any CPU
+		{032A5066-F1AB-48E5-B1E8-0BD6BAAC6B3B}.Release|x86.ActiveCfg = Release|Any CPU
+		{032A5066-F1AB-48E5-B1E8-0BD6BAAC6B3B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,5 +56,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{81034408-37C8-1011-444E-4C15C2FADA8E} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{B706C7E4-5F2F-4E1D-931F-B2B02227D5EB} = {81034408-37C8-1011-444E-4C15C2FADA8E}
+		{F480DADC-CC69-D398-4DBB-D15DC7288F2C} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{65C63562-CAF0-A5E7-78FD-FD81184A2D4E} = {F480DADC-CC69-D398-4DBB-D15DC7288F2C}
+		{032A5066-F1AB-48E5-B1E8-0BD6BAAC6B3B} = {65C63562-CAF0-A5E7-78FD-FD81184A2D4E}
 	EndGlobalSection
 EndGlobal
