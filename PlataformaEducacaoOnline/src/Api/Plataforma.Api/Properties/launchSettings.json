@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Plataforma.Api": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7256;http://localhost:5256",
+      "environmentVariables": { "ASPNETCORE_ENVIRONMENT": "Development" }
+    }
+  }
+}
