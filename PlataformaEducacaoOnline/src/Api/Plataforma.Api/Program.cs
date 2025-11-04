@@ -1,21 +1,22 @@
 using System.Text;
-using System.IO; 
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using Plataforma.Api.Auth;
 using Plataforma.Alunos.Infrastructure;
-using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;
 
-
+// ----------------------------------------------------
+// Diretórios e bancos SQLite
+// ----------------------------------------------------
 var dataDir = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "Data"));
-Directory.CreateDirectory(dataDir); 
+Directory.CreateDirectory(dataDir);
 
-string authDbPath   = Path.Combine(dataDir, "auth.db");
+string authDbPath = Path.Combine(dataDir, "auth.db");
 string alunosDbPath = Path.Combine(dataDir, "alunos.db");
 
 // ----------------------------------------------------
@@ -46,9 +47,8 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-
 // ----------------------------------------------------
-// DbContexts (SQLite) - usando caminhos absolutos
+// DbContexts (SQLite)
 // ----------------------------------------------------
 builder.Services.AddDbContext<AuthDbContext>(opt =>
     opt.UseSqlite($"Data Source={authDbPath}"));
@@ -57,15 +57,18 @@ builder.Services.AddDbContext<AlunosDbContext>(opt =>
     opt.UseSqlite($"Data Source={alunosDbPath}"));
 
 // ----------------------------------------------------
-// Identity + JWT Authentication
+// Identity + JWT
 // ----------------------------------------------------
-builder.Services.AddIdentity<ApplicationUser, IdentityRole<Guid>>(opt =>
+builder.Services.AddIdentityCore<ApplicationUser>(opt =>
 {
     opt.Password.RequireNonAlphanumeric = false;
     opt.Password.RequireUppercase = false;
 })
+.AddRoles<IdentityRole<Guid>>()
 .AddEntityFrameworkStores<AuthDbContext>()
+.AddSignInManager()        // se você usa UserManager/SignInManager
 .AddDefaultTokenProviders();
+
 
 var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:Key"]!));
 
@@ -74,34 +77,55 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     {
         options.TokenValidationParameters = new TokenValidationParameters
         {
-            ValidateIssuer = true,
-            ValidateAudience = true,
             ValidateIssuerSigningKey = true,
-            ValidIssuer = config["Jwt:Issuer"],
-            ValidAudience = config["Jwt:Audience"],
-            IssuerSigningKey = key
+            IssuerSigningKey = key,
+            ValidateIssuer = false,
+            ValidateAudience = false
         };
+
     });
 
-builder.Services.AddAuthorization();
+// ----------------------------------------------------
+// Políticas de autorização
+// ----------------------------------------------------
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AlunoOnly", policy =>
+        policy.RequireClaim("persona", "Aluno"));
+
+    options.AddPolicy("AdminOnly", policy =>
+        policy.RequireClaim("persona", "Admin"));
+});
+
+// ----------------------------------------------------
+// Retornar 401/403 em vez de redirecionar para /Account/Login
+// ----------------------------------------------------
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.Events.OnRedirectToLogin = context =>
+    {
+        context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+        return Task.CompletedTask;
+    };
+    options.Events.OnRedirectToAccessDenied = context =>
+    {
+        context.Response.StatusCode = StatusCodes.Status403Forbidden;
+        return Task.CompletedTask;
+    };
+});
 
 // ----------------------------------------------------
 // Build e Middlewares
 // ----------------------------------------------------
 var app = builder.Build();
 
-// Swagger sempre habilitado
 app.UseSwagger();
 app.UseSwaggerUI();
-
-// Sem redirecionar para HTTPS (ficamos em HTTP)
-//// app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapGet("/health", () => Results.Ok(new { status = "ok" }));
 app.MapControllers();
+app.MapGet("/health", () => Results.Ok(new { status = "ok" }));
 
-// Porta fixa
 app.Run("http://127.0.0.1:5280");
