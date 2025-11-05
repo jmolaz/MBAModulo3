@@ -1,0 +1,12 @@
+C:\MBAModulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoConteudo\Plataforma.GestaoConteudo.Domain\bin\Debug\net9.0\Plataforma.GestaoConteudo.Domain.deps.json
+C:\mbamodulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoConteudo\Plataforma.GestaoConteudo.Domain\bin\Debug\net9.0\Plataforma.GestaoConteudo.Domain.dll
+C:\mbamodulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoConteudo\Plataforma.GestaoConteudo.Domain\bin\Debug\net9.0\Plataforma.GestaoConteudo.Domain.pdb
+C:\mbamodulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoConteudo\Plataforma.GestaoConteudo.Domain\obj\Debug\net9.0\Plataforma.GestaoConteudo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\mbamodulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoConteudo\Plataforma.GestaoConteudo.Domain\obj\Debug\net9.0\Plataforma.GestaoConteudo.Domain.AssemblyInfoInputs.cache
+C:\mbamodulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoConteudo\Plataforma.GestaoConteudo.Domain\obj\Debug\net9.0\Plataforma.GestaoConteudo.Domain.AssemblyInfo.cs
+C:\mbamodulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoConteudo\Plataforma.GestaoConteudo.Domain\obj\Debug\net9.0\Plataforma.GestaoConteudo.Domain.csproj.CoreCompileInputs.cache
+C:\mbamodulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoConteudo\Plataforma.GestaoConteudo.Domain\obj\Debug\net9.0\Plataforma.GestaoConteudo.Domain.sourcelink.json
+C:\mbamodulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoConteudo\Plataforma.GestaoConteudo.Domain\obj\Debug\net9.0\Plataforma.GestaoConteudo.Domain.dll
+C:\mbamodulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoConteudo\Plataforma.GestaoConteudo.Domain\obj\Debug\net9.0\refint\Plataforma.GestaoConteudo.Domain.dll
+C:\mbamodulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoConteudo\Plataforma.GestaoConteudo.Domain\obj\Debug\net9.0\Plataforma.GestaoConteudo.Domain.pdb
+C:\MBAModulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoConteudo\Plataforma.GestaoConteudo.Domain\obj\Debug\net9.0\ref\Plataforma.GestaoConteudo.Domain.dll
