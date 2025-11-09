@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ETyQHP0cPMo=",
+  "dgSpecHash": "2/nPxd1v9/M=",
   "success": true,
-  "projectFilePath": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\Api\\Plataforma.Api\\Plataforma.Api.csproj",
+  "projectFilePath": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\Api\\Plataforma.Api\\Plataforma.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jmolaz\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Jmolaz\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

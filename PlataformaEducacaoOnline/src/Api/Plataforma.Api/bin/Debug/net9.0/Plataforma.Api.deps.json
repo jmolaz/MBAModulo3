@@ -14,7 +14,7 @@
           "Microsoft.EntityFrameworkCore": "9.0.10",
           "Microsoft.EntityFrameworkCore.Design": "9.0.10",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.10",
-          "Plataforma.Alunos.Infrastructure": "1.0.0",
+          "Plataforma.GestaoAlunos.Infrastructure": "1.0.0",
           "Plataforma.GestaoConteudo.Application": "1.0.0",
           "Plataforma.GestaoConteudo.Infrastructure": "1.0.0",
           "Swashbuckle.AspNetCore": "9.0.6",
@@ -1322,13 +1322,13 @@
           }
         }
       },
-      "Plataforma.Alunos.Infrastructure/1.0.0": {
+      "Plataforma.GestaoAlunos.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.10",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.10"
         },
         "runtime": {
-          "Plataforma.Alunos.Infrastructure.dll": {
+          "Plataforma.GestaoAlunos.Infrastructure.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -2042,7 +2042,7 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
-    "Plataforma.Alunos.Infrastructure/1.0.0": {
+    "Plataforma.GestaoAlunos.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

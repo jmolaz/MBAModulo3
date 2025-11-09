@@ -4840,11 +4840,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\Plataforma.GestaoConteudo.Application.csproj": {
-              "projectPath": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\Plataforma.GestaoConteudo.Application.csproj"
+            "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\Plataforma.GestaoConteudo.Application.csproj": {
+              "projectPath": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\Plataforma.GestaoConteudo.Application.csproj"
             },
-            "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\Plataforma.GestaoConteudo.Domain.csproj": {
-              "projectPath": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\Plataforma.GestaoConteudo.Domain.csproj"
+            "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\Plataforma.GestaoConteudo.Domain.csproj": {
+              "projectPath": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\Plataforma.GestaoConteudo.Domain.csproj"
             }
           }
         }

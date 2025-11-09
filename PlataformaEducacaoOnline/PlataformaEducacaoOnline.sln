@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BoundedContexts", "BoundedC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Alunos", "Alunos", "{65C63562-CAF0-A5E7-78FD-FD81184A2D4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plataforma.Alunos.Infrastructure", "src\BoundedContexts\Alunos\Plataforma.Alunos.Infrastructure\Plataforma.Alunos.Infrastructure.csproj", "{032A5066-F1AB-48E5-B1E8-0BD6BAAC6B3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plataforma.GestaoAlunos.Infrastructure", "src\BoundedContexts\GestaoAlunos\Plataforma.GestaoAlunos.Infrastructure\Plataforma.GestaoAlunos.Infrastructure.csproj", "{032A5066-F1AB-48E5-B1E8-0BD6BAAC6B3B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GestaoConteudo", "GestaoConteudo", "{DF48DD1D-4ED9-0BF6-E8EA-7F488D883D66}"
 EndProject

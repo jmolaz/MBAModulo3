@@ -1,0 +1,15 @@
+C:\MBAModulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoAlunos\Plataforma.GestaoAlunos.Infrastructure\bin\Debug\net9.0\Plataforma.GestaoAlunos.Infrastructure.deps.json
+C:\MBAModulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoAlunos\Plataforma.GestaoAlunos.Infrastructure\bin\Debug\net9.0\Plataforma.GestaoAlunos.Infrastructure.runtimeconfig.json
+C:\MBAModulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoAlunos\Plataforma.GestaoAlunos.Infrastructure\bin\Debug\net9.0\Plataforma.GestaoAlunos.Infrastructure.dll
+C:\MBAModulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoAlunos\Plataforma.GestaoAlunos.Infrastructure\bin\Debug\net9.0\Plataforma.GestaoAlunos.Infrastructure.pdb
+C:\MBAModulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoAlunos\Plataforma.GestaoAlunos.Infrastructure\obj\Debug\net9.0\Plataforma.GestaoAlunos.Infrastructure.csproj.AssemblyReference.cache
+C:\MBAModulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoAlunos\Plataforma.GestaoAlunos.Infrastructure\obj\Debug\net9.0\Plataforma.GestaoAlunos.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\MBAModulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoAlunos\Plataforma.GestaoAlunos.Infrastructure\obj\Debug\net9.0\Plataforma.GestaoAlunos.Infrastructure.AssemblyInfoInputs.cache
+C:\MBAModulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoAlunos\Plataforma.GestaoAlunos.Infrastructure\obj\Debug\net9.0\Plataforma.GestaoAlunos.Infrastructure.AssemblyInfo.cs
+C:\MBAModulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoAlunos\Plataforma.GestaoAlunos.Infrastructure\obj\Debug\net9.0\Plataforma.GestaoAlunos.Infrastructure.csproj.CoreCompileInputs.cache
+C:\MBAModulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoAlunos\Plataforma.GestaoAlunos.Infrastructure\obj\Debug\net9.0\Plataforma.GestaoAlunos.Infrastructure.sourcelink.json
+C:\MBAModulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoAlunos\Plataforma.GestaoAlunos.Infrastructure\obj\Debug\net9.0\Plataforma.GestaoAlunos.Infrastructure.dll
+C:\MBAModulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoAlunos\Plataforma.GestaoAlunos.Infrastructure\obj\Debug\net9.0\refint\Plataforma.GestaoAlunos.Infrastructure.dll
+C:\MBAModulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoAlunos\Plataforma.GestaoAlunos.Infrastructure\obj\Debug\net9.0\Plataforma.GestaoAlunos.Infrastructure.pdb
+C:\MBAModulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoAlunos\Plataforma.GestaoAlunos.Infrastructure\obj\Debug\net9.0\Plataforma.GestaoAlunos.Infrastructure.genruntimeconfig.cache
+C:\MBAModulo3\PlataformaEducacaoOnline\src\BoundedContexts\GestaoAlunos\Plataforma.GestaoAlunos.Infrastructure\obj\Debug\net9.0\ref\Plataforma.GestaoAlunos.Infrastructure.dll

@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Plataforma.Api.Auth;
-using Plataforma.Alunos.Infrastructure;
+using Plataforma.GestaoAlunos.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;

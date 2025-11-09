@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\Api\\Plataforma.Api\\Plataforma.Api.csproj": {}
+    "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\Api\\Plataforma.Api\\Plataforma.Api.csproj": {}
   },
   "projects": {
-    "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\Api\\Plataforma.Api\\Plataforma.Api.csproj": {
+    "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\Api\\Plataforma.Api\\Plataforma.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\Api\\Plataforma.Api\\Plataforma.Api.csproj",
+        "projectUniqueName": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\Api\\Plataforma.Api\\Plataforma.Api.csproj",
         "projectName": "Plataforma.Api",
-        "projectPath": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\Api\\Plataforma.Api\\Plataforma.Api.csproj",
+        "projectPath": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\Api\\Plataforma.Api\\Plataforma.Api.csproj",
         "packagesPath": "C:\\Users\\Jmolaz\\.nuget\\packages\\",
-        "outputPath": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\Api\\Plataforma.Api\\obj\\",
+        "outputPath": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\Api\\Plataforma.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\Alunos\\Plataforma.Alunos.Infrastructure\\Plataforma.Alunos.Infrastructure.csproj": {
-                "projectPath": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\Alunos\\Plataforma.Alunos.Infrastructure\\Plataforma.Alunos.Infrastructure.csproj"
+              "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoAlunos\\Plataforma.GestaoAlunos.Infrastructure\\Plataforma.GestaoAlunos.Infrastructure.csproj": {
+                "projectPath": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoAlunos\\Plataforma.GestaoAlunos.Infrastructure\\Plataforma.GestaoAlunos.Infrastructure.csproj"
               },
-              "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\Plataforma.GestaoConteudo.Application.csproj": {
-                "projectPath": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\Plataforma.GestaoConteudo.Application.csproj"
+              "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\Plataforma.GestaoConteudo.Application.csproj": {
+                "projectPath": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\Plataforma.GestaoConteudo.Application.csproj"
               },
               "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Infrastructure\\Plataforma.GestaoConteudo.Infrastructure.csproj": {
                 "projectPath": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Infrastructure\\Plataforma.GestaoConteudo.Infrastructure.csproj"
@@ -119,14 +119,14 @@
         }
       }
     },
-    "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\Alunos\\Plataforma.Alunos.Infrastructure\\Plataforma.Alunos.Infrastructure.csproj": {
+    "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoAlunos\\Plataforma.GestaoAlunos.Infrastructure\\Plataforma.GestaoAlunos.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\Alunos\\Plataforma.Alunos.Infrastructure\\Plataforma.Alunos.Infrastructure.csproj",
-        "projectName": "Plataforma.Alunos.Infrastructure",
-        "projectPath": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\Alunos\\Plataforma.Alunos.Infrastructure\\Plataforma.Alunos.Infrastructure.csproj",
+        "projectUniqueName": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoAlunos\\Plataforma.GestaoAlunos.Infrastructure\\Plataforma.GestaoAlunos.Infrastructure.csproj",
+        "projectName": "Plataforma.GestaoAlunos.Infrastructure",
+        "projectPath": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoAlunos\\Plataforma.GestaoAlunos.Infrastructure\\Plataforma.GestaoAlunos.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Jmolaz\\.nuget\\packages\\",
-        "outputPath": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\Alunos\\Plataforma.Alunos.Infrastructure\\obj\\",
+        "outputPath": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoAlunos\\Plataforma.GestaoAlunos.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -201,14 +201,14 @@
         }
       }
     },
-    "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\Plataforma.GestaoConteudo.Application.csproj": {
+    "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\Plataforma.GestaoConteudo.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\Plataforma.GestaoConteudo.Application.csproj",
+        "projectUniqueName": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\Plataforma.GestaoConteudo.Application.csproj",
         "projectName": "Plataforma.GestaoConteudo.Application",
-        "projectPath": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\Plataforma.GestaoConteudo.Application.csproj",
+        "projectPath": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\Plataforma.GestaoConteudo.Application.csproj",
         "packagesPath": "C:\\Users\\Jmolaz\\.nuget\\packages\\",
-        "outputPath": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\obj\\",
+        "outputPath": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -230,8 +230,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\Plataforma.GestaoConteudo.Domain.csproj": {
-                "projectPath": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\Plataforma.GestaoConteudo.Domain.csproj"
+              "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\Plataforma.GestaoConteudo.Domain.csproj": {
+                "projectPath": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\Plataforma.GestaoConteudo.Domain.csproj"
               }
             }
           }
@@ -277,14 +277,14 @@
         }
       }
     },
-    "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\Plataforma.GestaoConteudo.Domain.csproj": {
+    "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\Plataforma.GestaoConteudo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\Plataforma.GestaoConteudo.Domain.csproj",
+        "projectUniqueName": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\Plataforma.GestaoConteudo.Domain.csproj",
         "projectName": "Plataforma.GestaoConteudo.Domain",
-        "projectPath": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\Plataforma.GestaoConteudo.Domain.csproj",
+        "projectPath": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\Plataforma.GestaoConteudo.Domain.csproj",
         "packagesPath": "C:\\Users\\Jmolaz\\.nuget\\packages\\",
-        "outputPath": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\obj\\",
+        "outputPath": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -372,11 +372,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\Plataforma.GestaoConteudo.Application.csproj": {
-                "projectPath": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\Plataforma.GestaoConteudo.Application.csproj"
+              "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\Plataforma.GestaoConteudo.Application.csproj": {
+                "projectPath": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Application\\Plataforma.GestaoConteudo.Application.csproj"
               },
-              "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\Plataforma.GestaoConteudo.Domain.csproj": {
-                "projectPath": "C:\\mbamodulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\Plataforma.GestaoConteudo.Domain.csproj"
+              "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\Plataforma.GestaoConteudo.Domain.csproj": {
+                "projectPath": "C:\\MBAModulo3\\PlataformaEducacaoOnline\\src\\BoundedContexts\\GestaoConteudo\\Plataforma.GestaoConteudo.Domain\\Plataforma.GestaoConteudo.Domain.csproj"
               }
             }
           }

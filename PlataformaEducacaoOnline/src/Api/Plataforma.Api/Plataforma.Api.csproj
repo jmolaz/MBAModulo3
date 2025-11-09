@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\BoundedContexts\Alunos\Plataforma.Alunos.Infrastructure\Plataforma.Alunos.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\BoundedContexts\GestaoAlunos\Plataforma.GestaoAlunos.Infrastructure\Plataforma.GestaoAlunos.Infrastructure.csproj" />
     <ProjectReference Include="..\..\BoundedContexts\GestaoConteudo\Plataforma.GestaoConteudo.Application\Plataforma.GestaoConteudo.Application.csproj" />
     <ProjectReference Include="..\..\BoundedContexts\GestaoConteudo\Plataforma.GestaoConteudo.Infrastructure\Plataforma.GestaoConteudo.Infrastructure.csproj" />
   </ItemGroup>
