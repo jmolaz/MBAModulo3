@@ -6,6 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Plataforma.Api.Auth;
 using Plataforma.GestaoAlunos.Infrastructure;
+using Plataforma.GestaoConteudo.Infrastructure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;
@@ -18,6 +19,7 @@ Directory.CreateDirectory(dataDir);
 
 string authDbPath = Path.Combine(dataDir, "auth.db");
 string alunosDbPath = Path.Combine(dataDir, "alunos.db");
+string conteudoDbPath = Path.Combine(dataDir, "conteudo.db");
 
 // ----------------------------------------------------
 // Controllers + Swagger
@@ -55,6 +57,11 @@ builder.Services.AddDbContext<AuthDbContext>(opt =>
 
 builder.Services.AddDbContext<AlunosDbContext>(opt =>
     opt.UseSqlite($"Data Source={alunosDbPath}"));
+
+builder.Services.AddDbContext<ConteudoDbContext>(opt =>
+    opt.UseSqlite($"Data Source={conteudoDbPath}"));
+
+
 
 // ----------------------------------------------------
 // Identity + JWT
