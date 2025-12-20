@@ -34,6 +34,22 @@ public sealed class CursosController : ControllerBase
         var cursos = await _mediator.Send(new GetCursosQuery(), cancellationToken);
         return Ok(cursos);
     }
+
+    [HttpGet("{id:guid}")]
+    public async Task<IActionResult> GetById(
+        Guid id,
+        CancellationToken cancellationToken)
+    {
+        var curso = await _mediator.Send(
+            new GetCursoByIdQuery(id),
+            cancellationToken
+        );
+
+        if (curso is null)
+            return NotFound();
+
+        return Ok(curso);
+    }
 }
 
 
