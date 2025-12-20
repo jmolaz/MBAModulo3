@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Plataforma.GestaoConteudo.Domain\Plataforma.GestaoConteudo.Domain.csproj" />
+    <ProjectReference Include="..\Plataforma.GestaoConteudo.Infrastructure\Plataforma.GestaoConteudo.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

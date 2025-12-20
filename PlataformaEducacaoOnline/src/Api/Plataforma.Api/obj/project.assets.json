@@ -1990,7 +1990,8 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "MediatR": "13.1.0",
-          "Plataforma.GestaoConteudo.Domain": "1.0.0"
+          "Plataforma.GestaoConteudo.Domain": "1.0.0",
+          "Plataforma.GestaoConteudo.Infrastructure": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Plataforma.GestaoConteudo.Application.dll": {}
@@ -2016,7 +2017,6 @@
           "Microsoft.EntityFrameworkCore": "9.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.10",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.10",
-          "Plataforma.GestaoConteudo.Application": "1.0.0",
           "Plataforma.GestaoConteudo.Domain": "1.0.0"
         },
         "compile": {
