@@ -79,8 +79,8 @@ public class AuthController : ControllerBase
 
         var roles = await _userManager.GetRolesAsync(user);
 
-       var isAdmin = roles.Contains("Admin");
-       var isAluno = roles.Contains("Aluno");
+       var isAdmin = roles.Any(r => r.Equals("Admin", StringComparison.OrdinalIgnoreCase));
+       var isAluno = roles.Any(r => r.Equals("Aluno", StringComparison.OrdinalIgnoreCase));
        var persona = isAdmin ? "Admin" : (isAluno ? "Aluno" : "User");
 
 

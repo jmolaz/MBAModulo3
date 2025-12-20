@@ -1,3 +1,5 @@
+using MediatR;
+using Plataforma.GestaoConteudo.Application;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -61,8 +63,13 @@ builder.Services.AddDbContext<AlunosDbContext>(opt =>
 builder.Services.AddDbContext<ConteudoDbContext>(opt =>
     opt.UseSqlite($"Data Source={conteudoDbPath}"));
 
-
-
+// ----------------------------------------------------
+// MediatR (Gestão de Conteúdo)
+// ----------------------------------------------------
+builder.Services.AddMediatR(cfg =>
+{
+    cfg.RegisterServicesFromAssemblyContaining<AssemblyReference>();
+});
 // ----------------------------------------------------
 // Identity + JWT
 // ----------------------------------------------------

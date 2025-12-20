@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Plataforma.GestaoAlunos.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75a17c1e565358bca68884248060e76b209c40f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc01565cd647b90166d463f9b5b418d19263d6d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Plataforma.GestaoAlunos.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Plataforma.GestaoAlunos.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

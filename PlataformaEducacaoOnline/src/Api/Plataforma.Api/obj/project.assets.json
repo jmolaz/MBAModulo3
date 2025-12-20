@@ -5513,6 +5513,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "MediatR >= 13.1.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 9.0.9",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 9.0.9",
       "Microsoft.AspNetCore.OpenApi >= 9.0.9",
@@ -5587,6 +5588,10 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[13.1.0, )"
+          },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[9.0.9, )"
