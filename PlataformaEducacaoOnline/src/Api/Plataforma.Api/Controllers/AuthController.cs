@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using Plataforma.Api.Auth;
-using Plataforma.Alunos.Infrastructure;
+using Plataforma.GestaoAlunos.Infrastructure;
 
 
 namespace Plataforma.Api.Controllers;
